@@ -112,7 +112,7 @@ export default function Home() {
 
     try {
       // Connect to the Backend API
-      const response = await fetch('http://localhost:5000/api/diagnose', {
+      const response = await fetch('https://multi-disease-detection-fomn.onrender.com/api/diagnose', {
         method: 'POST',
         body: formData,
       });
